@@ -1,0 +1,143 @@
+{
+	"info": {
+		"_postman_id": "1a9b3df3-88be-404e-ad21-caec60544af6",
+		"name": "aws_ec2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "describe keys",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseurl}}/v1/aws/describe",
+					"host": [
+						"{{baseurl}}"
+					],
+					"path": [
+						"v1",
+						"aws",
+						"describe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create key pair",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseurl}}/v1/aws/describe",
+					"host": [
+						"{{baseurl}}"
+					],
+					"path": [
+						"v1",
+						"aws",
+						"describe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create aws instance",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseurl}}/v1/aws",
+					"host": [
+						"{{baseurl}}"
+					],
+					"path": [
+						"v1",
+						"aws"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "stop aws instance",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseurl}}/v1/aws/stop/i-07ae5fe18526e4689",
+					"host": [
+						"{{baseurl}}"
+					],
+					"path": [
+						"v1",
+						"aws",
+						"stop",
+						"i-07ae5fe18526e4689"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all aws instances",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseurl}}/v1/aws",
+					"host": [
+						"{{baseurl}}"
+					],
+					"path": [
+						"v1",
+						"aws"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "start aws instance",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseurl}}/v1/aws/start/i-06f6f569d2de9c4df",
+					"host": [
+						"{{baseurl}}"
+					],
+					"path": [
+						"v1",
+						"aws",
+						"start",
+						"i-06f6f569d2de9c4df"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "terminate aws instance",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseurl}}/v1/aws/terminate/i-06f6f569d2de9c4df",
+					"host": [
+						"{{baseurl}}"
+					],
+					"path": [
+						"v1",
+						"aws",
+						"terminate",
+						"i-06f6f569d2de9c4df"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
